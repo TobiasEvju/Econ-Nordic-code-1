@@ -6,7 +6,7 @@ class Execute extends MultiIOModule {
 
   val io = IO(
     new Bundle {
-        // UInts ????? idfk
+        
 
       val in = Input(new IDBarrierContent)
       val out = Output(new EXBarrierContent)
